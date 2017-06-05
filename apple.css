@@ -1,0 +1,80 @@
+div.background{
+	background-image: url("http://web.archive.org/web/20140226220919im_/http://images.apple.com/v/home/as/images/your_verse_hero_2x.jpg");
+	overflow: hidden;
+	height: 1000px;
+	background-size: cover;
+}
+nav ul{
+	display: block;
+	background: linear-gradient(45deg, blue, red);
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+nav{
+	margin-left: auto;
+	margin-right: auto;
+}
+nav ul li{
+	display: inline;
+	cursor: pointer;
+	padding: 3px 5px 3px 5px;
+}
+*{
+	border: 1px black solid;
+}
+header{
+	text-align: center;
+	color: white;
+}
+.promos {
+	height: 300px;
+	width: auto;
+	overflow: hidden;
+}
+.promos ul li img{
+	height: 500px;
+	width: 200px;
+	background-size: 500px;
+	background-size: contain;
+	
+}
+.promos ul li {
+	display: inline-block;
+}
+.promos ul{
+	border-color: red;
+	width: 880px;
+	margin-left: auto;
+	margin-right: auto;
+}
+footer{
+	padding: 30px;
+	overflow: hidden;
+}
+footer p{
+	font-size: 13px;
+	width: 500px;
+	display: block;
+	float: left;
+}
+footer ul {
+	float: right;
+	display: inline-block;
+	width: 500px;
+	font-size: 10px;
+}
+footer ul li{
+	width: 50px;
+	float: left;
+	display: block;
+	padding: 2px;
+}
+footer ul li:nth-child(6){
+	width: 80px;
+}
+footer p#copyright{
+	clear: both;
+	border-color: red;
+}
